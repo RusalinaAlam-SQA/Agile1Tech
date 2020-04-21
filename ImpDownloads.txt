@@ -1,0 +1,27 @@
+TestNG download link:
+
+https://dl.bintray.com/testng-team/testng-eclipse-release/
+
+
+Load Runner
+
+
+
+https://drive.google.com/file/d/16E7XuceSNBK5vDGTCV-LTpA_BWc_Mfma/view?usp=sharing
+
+2. https://drive.google.com/file/d/16E7XuceSNBK5vDGTCV-LTpA_BWc_Mfma/view?usp=sharing
+
+
+
+https://www.microfocus.com/en-us/products/loadrunner-professional/download
+
+WebTours
+
+http://127.0.0.1:1080/WebTours/index.htm
+
+Jmeter Download
+http://jmeter.apache.org/download_jmeter.cgi&n?Preferred=ftp%3A%2F%2Fapache.cs.utah.edu%2Fapache.org%2F
+
+TestNG Plugin
+
+https://dl.bintray.com/testng-team/testng-eclipse-release/
