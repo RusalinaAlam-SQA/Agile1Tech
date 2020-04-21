@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+    <line>
+      <![CDATA[Entering Tommy in the First Name Text Box ]]>
+    </line>
+    <line>
+      <![CDATA[Entering Lee in the Last Name Text Box ]]>
+    </line>
+    <line>
+      <![CDATA[Entering 7031234567 in the Phone Text Box ]]>
+    </line>
+    <line>
+      <![CDATA[Entering tommylee@yahoo.com in the Email Text Box ]]>
+    </line>
+    <line>
+      <![CDATA[Entering 10400 Eaton Pl, Suite 105 in the Address Text Box ]]>
+    </line>
+    <line>
+      <![CDATA[Entering Fairfax in the City Text Box ]]>
+    </line>
+    <line>
+      <![CDATA[Entering Virginia in the State Text Box ]]>
+    </line>
+    <line>
+      <![CDATA[Entering 22030 in the Postal Code Text Box ]]>
+    </line>
+    <line>
+      <![CDATA[Entering mcc1919 in the User Name Text Box ]]>
+    </line>
+    <line>
+      <![CDATA[Entering Abcd1234 in the Password Text Box ]]>
+    </line>
+    <line>
+      <![CDATA[Entering Abcd1234 in the Confirm Password Text Box ]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the submit button is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the submit button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Reading the title of the page]]>
+    </line>
+    <line>
+      <![CDATA[Reading the Url of the page]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="23748" started-at="2020-04-07T01:45:42Z" finished-at="2020-04-07T01:46:06Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="23748" started-at="2020-04-07T01:45:42Z" finished-at="2020-04-07T01:46:06Z">
+      <class name="com.app.test.basicTestNGTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeTest" is-config="true" duration-ms="12041" started-at="2020-04-06T21:45:42Z" finished-at="2020-04-06T21:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2020-04-06T21:45:54Z" finished-at="2020-04-06T21:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateFirstName()[pri:1, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="validateFirstName" duration-ms="113" started-at="2020-04-06T21:45:54Z" finished-at="2020-04-06T21:45:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Tommy in the First Name Text Box ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateFirstName -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2020-04-06T21:45:54Z" finished-at="2020-04-06T21:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateLastName()[pri:2, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="validateLastName" duration-ms="118" started-at="2020-04-06T21:45:55Z" finished-at="2020-04-06T21:45:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Lee in the Last Name Text Box ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLastName -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeMethod" is-config="true" duration-ms="502" started-at="2020-04-06T21:45:55Z" finished-at="2020-04-06T21:45:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validatePhone()[pri:3, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="validatePhone" duration-ms="128" started-at="2020-04-06T21:45:56Z" finished-at="2020-04-06T21:45:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering 7031234567 in the Phone Text Box ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatePhone -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeMethod" is-config="true" duration-ms="503" started-at="2020-04-06T21:45:56Z" finished-at="2020-04-06T21:45:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateEmail()[pri:4, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="validateEmail" duration-ms="209" started-at="2020-04-06T21:45:56Z" finished-at="2020-04-06T21:45:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering tommylee@yahoo.com in the Email Text Box ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateEmail -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2020-04-06T21:45:56Z" finished-at="2020-04-06T21:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateAddress()[pri:5, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="validateAddress" duration-ms="247" started-at="2020-04-06T21:45:57Z" finished-at="2020-04-06T21:45:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering 10400 Eaton Pl, Suite 105 in the Address Text Box ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2020-04-06T21:45:57Z" finished-at="2020-04-06T21:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateCity()[pri:6, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="validateCity" duration-ms="96" started-at="2020-04-06T21:45:58Z" finished-at="2020-04-06T21:45:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Fairfax in the City Text Box ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateCity -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2020-04-06T21:45:58Z" finished-at="2020-04-06T21:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateState()[pri:7, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="validateState" duration-ms="145" started-at="2020-04-06T21:45:58Z" finished-at="2020-04-06T21:45:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Virginia in the State Text Box ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateState -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2020-04-06T21:45:58Z" finished-at="2020-04-06T21:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validatePostalCode()[pri:8, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="validatePostalCode" duration-ms="107" started-at="2020-04-06T21:45:59Z" finished-at="2020-04-06T21:45:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering 22030 in the Postal Code Text Box ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatePostalCode -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2020-04-06T21:45:59Z" finished-at="2020-04-06T21:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateUserName()[pri:9, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="validateUserName" duration-ms="108" started-at="2020-04-06T21:46:00Z" finished-at="2020-04-06T21:46:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering mcc1919 in the User Name Text Box ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeMethod" is-config="true" duration-ms="502" started-at="2020-04-06T21:46:00Z" finished-at="2020-04-06T21:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validatePassword()[pri:10, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="validatePassword" duration-ms="103" started-at="2020-04-06T21:46:00Z" finished-at="2020-04-06T21:46:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Abcd1234 in the Password Text Box ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatePassword -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2020-04-06T21:46:00Z" finished-at="2020-04-06T21:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateConfirmPassword()[pri:11, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="validateConfirmPassword" duration-ms="120" started-at="2020-04-06T21:46:01Z" finished-at="2020-04-06T21:46:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Abcd1234 in the Confirm Password Text Box ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateConfirmPassword -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2020-04-06T21:46:01Z" finished-at="2020-04-06T21:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateSubmit()[pri:12, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="validateSubmit" duration-ms="72" started-at="2020-04-06T21:46:01Z" finished-at="2020-04-06T21:46:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying the submit button is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the submit button is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSubmit -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2020-04-06T21:46:01Z" finished-at="2020-04-06T21:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateTitle()[pri:13, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="validateTitle" duration-ms="12" started-at="2020-04-06T21:46:02Z" finished-at="2020-04-06T21:46:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading the title of the page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2020-04-06T21:46:02Z" finished-at="2020-04-06T21:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateUrl()[pri:14, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="validateUrl" duration-ms="13" started-at="2020-04-06T21:46:02Z" finished-at="2020-04-06T21:46:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading the Url of the page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUrl -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.app.test.basicTestNGTest@2d2e5f00]" name="afterTest" is-config="true" duration-ms="3062" started-at="2020-04-06T21:46:02Z" finished-at="2020-04-06T21:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.app.test.basicTestNGTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
