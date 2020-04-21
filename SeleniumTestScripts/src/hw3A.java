@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 			public static void main(String[] args) throws InterruptedException {
 				
 
-				System.setProperty("webdriver.chrome.driver","C:\\Users\\rusal\\OneDrive\\Desktop\\ProgrammingLibraries\\chromedriver.exe");
+				//System.setProperty("webdriver.chrome.driver","C:\\Users\\rusal\\OneDrive\\Desktop\\ProgrammingLibraries\\chromedriver.exe");
 
 				WebDriver driver= new ChromeDriver();
 				
