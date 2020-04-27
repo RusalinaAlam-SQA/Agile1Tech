@@ -52,6 +52,9 @@ pageNewtoursSignOn nt;
 		
 		nt.getFirstName().sendKeys("Tommy");
 		Reporter.log("Entering Tommy in the First Name Text Box ", true);
+		
+		
+		
 	}
 	
 	@Test(priority = 2)
