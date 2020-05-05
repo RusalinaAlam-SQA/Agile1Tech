@@ -14,7 +14,7 @@
 	<classpathentry kind="lib" path="src/lib/junit-4.12 (1).jar"/>
 	<classpathentry kind="lib" path="src/lib/mockito-all-1.9.1-20110911 (1).jar"/>
 	<classpathentry kind="lib" path="src/lib/selenium-java-2.53.0 (1).jar"/>
-	<classpathentry kind="lib" path="src/lib/selenium-server-standalone-2.53.0 (1).jar"/>
 	<classpathentry kind="lib" path="src/lib/testng-6.10 (1).jar"/>
+	<classpathentry kind="lib" path="src/lib/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

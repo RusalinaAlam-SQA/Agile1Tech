@@ -2,6 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.Select;
 
@@ -16,11 +17,13 @@ public class hw3C {
 		
 		//driver. manage().deleteAllCookies();
 		
-        System.setProperty("webdriver.ie.driver","C:\\Users\\rusal\\OneDrive\\Desktop\\ProgrammingLibraries\\IEDriverServer.exe");
+        //System.setProperty("webdriver.ie.driver","C:\\Users\\rusal\\OneDrive\\Desktop\\ProgrammingLibraries\\IEDriverServer.exe");
 		
-		WebDriver driver= new InternetExplorerDriver();
-		
-		
+		//WebDriver driver= new InternetExplorerDriver();
+		 
+		//System.setProperty("webdriver.firefox.marionette","C:\\Users\\rusal\\OneDrive\\Desktop\\ProgrammingLibraries\\CommonDrivers\\geckodriver.exe");
+		WebDriver driver= new FirefoxDriver();
+	
 		driver.get("https://login.yahoo.com/account/create?specId=yidReg");
 		
 		driver.manage().window().maximize();

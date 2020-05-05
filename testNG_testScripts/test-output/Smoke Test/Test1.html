@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/8/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Apr 22 21:08:32 EDT 2020</td>
+<td>Started on:</td><td>Tue Apr 28 22:26:50 EDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>21 seconds (21385 ms)</td>
+<tr><td>Total time:</td><td>15 seconds (15156 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,590 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.app.test.basicTestNGTest.validateConfirmPassword()'><b>validateConfirmPassword</b><br>Test class: com.app.test.basicTestNGTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-*** Element info: {Using=name, value=confirmPassword}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.app.pages.pageNewtoursSignOn.getConfirmPassword(pageNewtoursSignOn.java:87)
-	at com.app.test.basicTestNGTest.validateConfirmPassword(basicTestNGTest.java:122)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1885922916", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1885922916'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-*** Element info: {Using=name, value=confirmPassword}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.app.pages.pageNewtoursSignOn.getConfirmPassword(pageNewtoursSignOn.java:87)
-	at com.app.test.basicTestNGTest.validateConfirmPassword(basicTestNGTest.java:122)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
-<tr>
-<td title='com.app.test.basicTestNGTest.validatePassword()'><b>validatePassword</b><br>Test class: com.app.test.basicTestNGTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-*** Element info: {Using=name, value=password}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.app.pages.pageNewtoursSignOn.getPassword(pageNewtoursSignOn.java:80)
-	at com.app.test.basicTestNGTest.validatePassword(basicTestNGTest.java:115)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1176164144", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1176164144'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-*** Element info: {Using=name, value=password}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.app.pages.pageNewtoursSignOn.getPassword(pageNewtoursSignOn.java:80)
-	at com.app.test.basicTestNGTest.validatePassword(basicTestNGTest.java:115)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
-<tr>
-<td title='com.app.test.basicTestNGTest.validatePostalCode()'><b>validatePostalCode</b><br>Test class: com.app.test.basicTestNGTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-*** Element info: {Using=name, value=postalCode}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.app.pages.pageNewtoursSignOn.getPostalCode(pageNewtoursSignOn.java:66)
-	at com.app.test.basicTestNGTest.validatePostalCode(basicTestNGTest.java:101)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace914374969", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace914374969'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-*** Element info: {Using=name, value=postalCode}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.app.pages.pageNewtoursSignOn.getPostalCode(pageNewtoursSignOn.java:66)
-	at com.app.test.basicTestNGTest.validatePostalCode(basicTestNGTest.java:101)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
-<tr>
-<td title='com.app.test.basicTestNGTest.validateState()'><b>validateState</b><br>Test class: com.app.test.basicTestNGTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-*** Element info: {Using=name, value=state}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.app.pages.pageNewtoursSignOn.getState(pageNewtoursSignOn.java:59)
-	at com.app.test.basicTestNGTest.validateState(basicTestNGTest.java:94)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1889057031", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1889057031'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-*** Element info: {Using=name, value=state}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.app.pages.pageNewtoursSignOn.getState(pageNewtoursSignOn.java:59)
-	at com.app.test.basicTestNGTest.validateState(basicTestNGTest.java:94)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
-<tr>
-<td title='com.app.test.basicTestNGTest.validateSubmit()'><b>validateSubmit</b><br>Test class: com.app.test.basicTestNGTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-*** Element info: {Using=name, value=register}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.app.pages.pageNewtoursSignOn.verifySubmit(pageNewtoursSignOn.java:94)
-	at com.app.test.basicTestNGTest.validateSubmit(basicTestNGTest.java:129)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1989811701", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1989811701'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-*** Element info: {Using=name, value=register}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.app.pages.pageNewtoursSignOn.verifySubmit(pageNewtoursSignOn.java:94)
-	at com.app.test.basicTestNGTest.validateSubmit(basicTestNGTest.java:129)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
-<tr>
-<td title='com.app.test.basicTestNGTest.validateTitle()'><b>validateTitle</b><br>Test class: com.app.test.basicTestNGTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 6 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:320)
-	at com.app.test.basicTestNGTest.validateTitle(basicTestNGTest.java:144)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1365767549", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1365767549'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 6 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:320)
-	at com.app.test.basicTestNGTest.validateTitle(basicTestNGTest.java:144)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
-<tr>
-<td title='com.app.test.basicTestNGTest.validateUrl()'><b>validateUrl</b><br>Test class: com.app.test.basicTestNGTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
-	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:326)
-	at com.app.test.basicTestNGTest.validateUrl(basicTestNGTest.java:154)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1042306518", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1042306518'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
-	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:326)
-	at com.app.test.basicTestNGTest.validateUrl(basicTestNGTest.java:154)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
-<tr>
-<td title='com.app.test.basicTestNGTest.validateUserName()'><b>validateUserName</b><br>Test class: com.app.test.basicTestNGTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-*** Element info: {Using=name, value=email}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.app.pages.pageNewtoursSignOn.getUserName(pageNewtoursSignOn.java:73)
-	at com.app.test.basicTestNGTest.validateUserName(basicTestNGTest.java:108)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace613784740", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace613784740'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.122)
-  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;Rusalina-Alam&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53299}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\rusal\AppData\Local\Temp\scoped_dir3440_1520053729}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.122, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
-*** Element info: {Using=name, value=email}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.app.pages.pageNewtoursSignOn.getUserName(pageNewtoursSignOn.java:73)
-	at com.app.test.basicTestNGTest.validateUserName(basicTestNGTest.java:108)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -660,10 +76,10 @@ Session ID: 51e491dd5bbfde4c07f06a148b8fa6d4
 </tr>
 <tr>
 <td title='com.app.test.basicTestNGTest.validateAddress()'><b>validateAddress</b><br>Test class: com.app.test.basicTestNGTest<br/>
-<a href="#Output-1541525668" onClick='toggleBox("Output-1541525668", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1865859824" onClick='toggleBox("Output-1865859824", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1541525668" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1541525668">
+<a href="#Output-1865859824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1865859824">
 Entering 10400 Eaton Pl, Suite 105 in the Address Text Box <br/>
 </div>
 </td>
@@ -672,10 +88,10 @@ Entering 10400 Eaton Pl, Suite 105 in the Address Text Box <br/>
 <td>com.app.test.basicTestNGTest@1e67a849</td></tr>
 <tr>
 <td title='com.app.test.basicTestNGTest.validateCity()'><b>validateCity</b><br>Test class: com.app.test.basicTestNGTest<br/>
-<a href="#Output-823914581" onClick='toggleBox("Output-823914581", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-993370665" onClick='toggleBox("Output-993370665", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-823914581" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-823914581">
+<a href="#Output-993370665" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-993370665">
 Entering Fairfax in the City Text Box <br/>
 </div>
 </td>
@@ -683,11 +99,23 @@ Entering Fairfax in the City Text Box <br/>
 <td>0</td>
 <td>com.app.test.basicTestNGTest@1e67a849</td></tr>
 <tr>
-<td title='com.app.test.basicTestNGTest.validateEmail()'><b>validateEmail</b><br>Test class: com.app.test.basicTestNGTest<br/>
-<a href="#Output-98826337" onClick='toggleBox("Output-98826337", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.app.test.basicTestNGTest.validateConfirmPassword()'><b>validateConfirmPassword</b><br>Test class: com.app.test.basicTestNGTest<br/>
+<a href="#Output-324169305" onClick='toggleBox("Output-324169305", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-98826337" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-98826337">
+<a href="#Output-324169305" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-324169305">
+Entering Abcd1234 in the Confirm Password Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
+<tr>
+<td title='com.app.test.basicTestNGTest.validateEmail()'><b>validateEmail</b><br>Test class: com.app.test.basicTestNGTest<br/>
+<a href="#Output-1161322357" onClick='toggleBox("Output-1161322357", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1161322357" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1161322357">
 Entering tommylee@yahoo.com in the Email Text Box <br/>
 </div>
 </td>
@@ -696,10 +124,10 @@ Entering tommylee@yahoo.com in the Email Text Box <br/>
 <td>com.app.test.basicTestNGTest@1e67a849</td></tr>
 <tr>
 <td title='com.app.test.basicTestNGTest.validateFirstName()'><b>validateFirstName</b><br>Test class: com.app.test.basicTestNGTest<br/>
-<a href="#Output-704106237" onClick='toggleBox("Output-704106237", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-616674002" onClick='toggleBox("Output-616674002", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-704106237" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-704106237">
+<a href="#Output-616674002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-616674002">
 Entering Tommy in the First Name Text Box <br/>
 </div>
 </td>
@@ -708,10 +136,10 @@ Entering Tommy in the First Name Text Box <br/>
 <td>com.app.test.basicTestNGTest@1e67a849</td></tr>
 <tr>
 <td title='com.app.test.basicTestNGTest.validateLastName()'><b>validateLastName</b><br>Test class: com.app.test.basicTestNGTest<br/>
-<a href="#Output-159475521" onClick='toggleBox("Output-159475521", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1179792105" onClick='toggleBox("Output-1179792105", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-159475521" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-159475521">
+<a href="#Output-1179792105" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1179792105">
 Entering Lee in the Last Name Text Box <br/>
 </div>
 </td>
@@ -719,12 +147,97 @@ Entering Lee in the Last Name Text Box <br/>
 <td>0</td>
 <td>com.app.test.basicTestNGTest@1e67a849</td></tr>
 <tr>
-<td title='com.app.test.basicTestNGTest.validatePhone()'><b>validatePhone</b><br>Test class: com.app.test.basicTestNGTest<br/>
-<a href="#Output-90567568" onClick='toggleBox("Output-90567568", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.app.test.basicTestNGTest.validatePassword()'><b>validatePassword</b><br>Test class: com.app.test.basicTestNGTest<br/>
+<a href="#Output-1150058854" onClick='toggleBox("Output-1150058854", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-90567568" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-90567568">
+<a href="#Output-1150058854" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1150058854">
+Entering Abcd1234 in the Password Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
+<tr>
+<td title='com.app.test.basicTestNGTest.validatePhone()'><b>validatePhone</b><br>Test class: com.app.test.basicTestNGTest<br/>
+<a href="#Output-106999035" onClick='toggleBox("Output-106999035", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-106999035" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-106999035">
 Entering 7031234567 in the Phone Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
+<tr>
+<td title='com.app.test.basicTestNGTest.validatePostalCode()'><b>validatePostalCode</b><br>Test class: com.app.test.basicTestNGTest<br/>
+<a href="#Output-1541525668" onClick='toggleBox("Output-1541525668", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1541525668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1541525668">
+Entering 22030 in the Postal Code Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
+<tr>
+<td title='com.app.test.basicTestNGTest.validateState()'><b>validateState</b><br>Test class: com.app.test.basicTestNGTest<br/>
+<a href="#Output-131872530" onClick='toggleBox("Output-131872530", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-131872530" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-131872530">
+Entering Virginia in the State Text Box <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
+<tr>
+<td title='com.app.test.basicTestNGTest.validateSubmit()'><b>validateSubmit</b><br>Test class: com.app.test.basicTestNGTest<br/>
+<a href="#Output-549293029" onClick='toggleBox("Output-549293029", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-549293029" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-549293029">
+Verifying the submit button is enabled<br/>
+Verifying the submit button is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
+<tr>
+<td title='com.app.test.basicTestNGTest.validateTitle()'><b>validateTitle</b><br>Test class: com.app.test.basicTestNGTest<br/>
+<a href="#Output-1323434987" onClick='toggleBox("Output-1323434987", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1323434987" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1323434987">
+Reading the title of the page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
+<tr>
+<td title='com.app.test.basicTestNGTest.validateUrl()'><b>validateUrl</b><br>Test class: com.app.test.basicTestNGTest<br/>
+<a href="#Output-1624972302" onClick='toggleBox("Output-1624972302", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1624972302" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1624972302">
+Reading the Url of the page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.app.test.basicTestNGTest@1e67a849</td></tr>
+<tr>
+<td title='com.app.test.basicTestNGTest.validateUserName()'><b>validateUserName</b><br>Test class: com.app.test.basicTestNGTest<br/>
+<a href="#Output-2100440237" onClick='toggleBox("Output-2100440237", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2100440237" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2100440237">
+Entering mcc1919 in the User Name Text Box <br/>
 </div>
 </td>
 <td></td>

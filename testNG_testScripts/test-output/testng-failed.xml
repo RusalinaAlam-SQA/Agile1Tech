@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Test]" parallel="none">
-  <test name="Test1(failed)" parallel="none">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
     <classes>
       <class name="com.app.test.basicTestNGTest">
         <methods>
-          <include name="validatePostalCode"/>
           <include name="validateUrl"/>
+          <include name="validateFirstName"/>
+          <include name="validateCity"/>
+          <include name="validateLastName"/>
+          <include name="validateState"/>
+          <include name="validatePostalCode"/>
           <include name="validatePassword"/>
-          <include name="beforeMethod"/>
-          <include name="afterTest"/>
+          <include name="validateAddress"/>
+          <include name="validateEmail"/>
           <include name="validateTitle"/>
           <include name="validateSubmit"/>
           <include name="validateConfirmPassword"/>
-          <include name="validateState"/>
+          <include name="validatePhone"/>
           <include name="validateUserName"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- com.app.test.basicTestNGTest -->
     </classes>
-  </test> <!-- Test1(failed) -->
-</suite> <!-- Failed suite [Smoke Test] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

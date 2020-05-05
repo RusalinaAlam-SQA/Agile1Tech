@@ -6,10 +6,19 @@
       <class name="com.app.test.basicTestNGTest">
         <methods>
           <include name="validateUrl"/>
-          <include name="beforeMethod"/>
-          <include name="afterTest"/>
+          <include name="validateFirstName"/>
+          <include name="validateCity"/>
+          <include name="validateLastName"/>
+          <include name="validateState"/>
+          <include name="validatePostalCode"/>
+          <include name="validatePassword"/>
+          <include name="validateAddress"/>
+          <include name="validateEmail"/>
           <include name="validateTitle"/>
           <include name="validateSubmit"/>
+          <include name="validateConfirmPassword"/>
+          <include name="validatePhone"/>
+          <include name="validateUserName"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- com.app.test.basicTestNGTest -->

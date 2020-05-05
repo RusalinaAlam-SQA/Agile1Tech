@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
@@ -17,25 +18,35 @@ import com.app.pages.pageNewtoursSignOn;
 public class basicTestNGTest {
 	
    WebDriver driver;
+   WebDriver driver1;
 pageNewtoursSignOn nt;
 	
 	
 @BeforeTest
 	public void beforeTest() throws InterruptedException{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rusal\\OneDrive\\Desktop\\ProgrammingLibraries\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\rusal\\OneDrive\\Desktop\\ProgrammingLibraries\\chromedriver.exe");
 		
-		driver = new ChromeDriver();
-		nt = new pageNewtoursSignOn(driver);
-		
-		driver.manage().deleteAllCookies();
-		
-		Thread.sleep(1000);
-		
-		driver.get("http://newtours.demoaut.com/mercuryregister.php");
-		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
+	    
+	//IE Driver
+	    driver= new InternetExplorerDriver();
+	    nt = new pageNewtoursSignOn(driver);
+	    driver.manage().deleteAllCookies();
+	    driver.get("http://newtours.demoaut.com/mercuryregister.php");
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
+	    
+		
+		
+		
+	//chromeDriver
+		
+		
+		  driver = new ChromeDriver(); nt = new pageNewtoursSignOn(driver);
+		  driver.manage().deleteAllCookies();
+		  driver.get("http://newtours.demoaut.com/mercuryregister.php");
+		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		  driver.manage().window().maximize();
+		 
 		
 	
 	}

@@ -2,9 +2,12 @@ package stepDef;
 
 import java.util.concurrent.TimeUnit;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import cucumber.api.java.en.Given;
@@ -21,26 +24,53 @@ public class newToursLinkSteps {
 	newToursLinkPage lp;
 	newToursRegistrationPage rp;
 	
+	@Given("^user enters the browser name \"([^\"]*)\"$")
+	public void user_enters_the_browser_name(String browserName) {  
 	
-	@Given("^user is in the home page$")
+
+	if(browserName.equalsIgnoreCase("chrome")) {
+	
+		driver = new ChromeDriver();
+	       lp=new newToursLinkPage(driver);
+	       rp=new newToursRegistrationPage(driver);
+	       
+	       
+	}
+		
+ else if(browserName.equalsIgnoreCase("InternetExplorer")) {
+		 
+		 driver = new InternetExplorerDriver(); 
+		 lp=new newToursLinkPage(driver);
+		 rp=new newToursRegistrationPage(driver);}
+	
+	
+		 	
+		  else if(browserName.equalsIgnoreCase("firefox")){
+		  
+		  driver = new FirefoxDriver(); lp=new newToursLinkPage(driver); rp=new
+		  newToursRegistrationPage(driver);}
+		  
+		 
+
+		
+		
+		 
+}
+	@When("^user is in the home page$")
 	public void user_is_in_the_home_page() throws InterruptedException {
 	
-	System.setProperty("webdriver.chrome.driver","C:\\Users/rusal/OneDrive/Desktop/ProgrammingLibraries/chromedriver.exe");
-    
-    driver = new ChromeDriver(); 
-    lp=new newToursLinkPage(driver);
-    rp=new newToursRegistrationPage(driver);
-	driver.manage().deleteAllCookies();
-	
-	Thread.sleep(2000);
-	
-    driver.get("http://newtours.demoaut.com/mercuryregister.php");
-    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	     driver.manage().deleteAllCookies();
+		 
+		 Thread.sleep(2000);
+		 
+		 driver.get("http://newtours.demoaut.com/mercuryregister.php");
+		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+         driver.manage().window().maximize();
     
    
 }
 		
-	@When("^user clicks on the home link$")
+	@Then("^user clicks on the home link$")
 	public void user_clicks_on_the_home_link() throws InterruptedException {
 		Thread.sleep(3000);
 		
@@ -162,7 +192,7 @@ public class newToursLinkSteps {
 	@Then("^user close the browser$")
 	public void user_close_the_browser() throws InterruptedException  {
 	   
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		driver.quit();
 	}
 
